@@ -1,0 +1,11 @@
+.btn-gradient {
+  @apply bg-gradient-to-r from-blue-500 to-purple-600 text-white px-4 py-2 rounded-lg;
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
