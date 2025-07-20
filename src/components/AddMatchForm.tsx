@@ -116,7 +116,6 @@ export const AddMatchForm: React.FC<AddMatchFormProps> = ({ onAddMatch }) => {
             error={errors.homeTeam}
             touched={touched.homeTeam}
             required
-            autoFocus
             autoComplete="off"
           />
 
